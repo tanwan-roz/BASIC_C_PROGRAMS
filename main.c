@@ -2,13 +2,19 @@
 #include <stdlib.h>
 
 int main()
-
 {
-    printf("Hello world!\n");
-    return 0;
+ float principal, rate, time, SI;
 
+ printf("Enter principal:");
+ scanf("%f", &principal);
 
-    int a, b, sum, average;
-    printf("%d", a+b);
-    printf("%d", (a+b)/2);
-}
+ printf("Enter rate:");
+ scanf("\n%f", &rate);
+
+ printf("Enter time:");
+ scanf("\n%f", &time);
+
+ SI = (principal*rate*time)/100;
+ printf("simple interest:%f",SI);
+
+ }
